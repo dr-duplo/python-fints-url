@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='fints-url',
-      version='0.1',
+      version='0.2',
       description='FinTS URL Retriever',
       long_description='FinTS URL Retriever is a web scraper which tries to retrieve the FinTS URL of german banks.',
       classifiers=[

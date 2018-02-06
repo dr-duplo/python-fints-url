@@ -39,3 +39,6 @@ url = fints_url.find(bank_code=86055592)
 ```
 ## Status
 This is an early version. Please report errors/bugs.
+
+## Licensing
+MIT License

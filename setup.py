@@ -1,6 +1,8 @@
 from setuptools import setup
 import setuptools.command.build_py
+import sys, os
 
+sys.path.append(os.path.dirname(__file__))
 import update_bank_info
 
 class UpdateBankInfoCommand(setuptools.command.build_py.build_py):

@@ -3,7 +3,7 @@ import setuptools.command.build_py
 import sys, os
 
 sys.path.append(os.path.dirname(__file__))
-import update_bank_info
+from fints_url import update_bank_info
 
 class UpdateBankInfoCommand(setuptools.command.build_py.build_py):
   """Update Bank Info."""
@@ -20,7 +20,7 @@ class BuildPyCommand(setuptools.command.build_py.build_py):
     setuptools.command.build_py.build_py.run(self)
 
 setup(name='fints-url',
-      version='0.4',
+      version='0.6',
       description='FinTS URL Retriever',
       long_description='FinTS URL Retriever is a small library to retrieve the FinTS URLs of german banks.',
       classifiers=[

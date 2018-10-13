@@ -112,7 +112,7 @@ def update():
     f.close()
     tar.close()
 
-    pickle.dump(bank_data, open(os.path.join(os.path.dirname(__file__), 'fints_url', 'bank_info.pickle'), 'wb'))
+    pickle.dump(bank_data, open(os.path.join(os.path.dirname(__file__), 'bank_info.pickle'), 'wb'))
 
 if __name__ == '__main__':
     update()

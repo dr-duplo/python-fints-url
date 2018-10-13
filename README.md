@@ -2,8 +2,8 @@
 This is a python module that can be used to obtain the FinTS URL of german banks.
 As of my knowledge, there's no public available API to request them.
 
-The module scrapes the website of https://www.hbci-zka.de/ and follows the form flow to get to
-the desired FinTS url of the bank.
+The module uses the bank info database of aqbanking at
+https://github.com/aqbanking/aqbanking/raw/master/src/plugins/bankinfo/generic/de.tar.bz2.
 
 ## Usage
 The module can be used as standalone script or library.

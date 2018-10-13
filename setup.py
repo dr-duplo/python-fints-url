@@ -18,7 +18,7 @@ class BuildPyCommand(setuptools.command.build_py.build_py):
     setuptools.command.build_py.build_py.run(self)
 
 setup(name='fints-url',
-      version='0.3',
+      version='0.4',
       description='FinTS URL Retriever',
       long_description='FinTS URL Retriever is a small library to retrieve the FinTS URLs of german banks.',
       classifiers=[

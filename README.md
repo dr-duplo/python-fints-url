@@ -5,6 +5,9 @@ As of my knowledge, there's no public available API to request them.
 The module uses the bank info database of aqbanking at
 https://github.com/aqbanking/aqbanking/raw/master/src/plugins/bankinfo/generic/de.tar.bz2.
 
+The former method (version <= 0.2) was to scrape the data from https://www.hbci-zka.de/
+    but they shut down their public info service.
+
 ## Usage
 The module can be used as standalone script or library.
 

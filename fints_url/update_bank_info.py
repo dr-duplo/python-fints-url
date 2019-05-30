@@ -4,7 +4,7 @@ from enum import Enum
 def update():
 
     print('Fetching aqbanking DB...')
-    response = requests.get("https://github.com/aqbanking/aqbanking/raw/master/src/plugins/bankinfo/generic/de.tar.bz2")
+    response = requests.get("https://github.com/aqbanking/aqbanking/raw/master/src/libs/plugins/bankinfo/generic/de.tar.bz2")
     tar_bz2_obj = io.BytesIO(response.content)
 
     print('Parsing fints data...')
